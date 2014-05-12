@@ -1,18 +1,13 @@
-Welcome to your Appcelerator Titanium Mobile Project
+Titanium Demo App
+=================
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+This mobile app has been developed using Javascript technologies. 
+The cross-platform tool used for developing this mobile app is Titanium from Appcelerator. 
 
+This mobile app test some of the mobile device features such as Accelerometer, Camera, Geolocation, and others.
+ 
+This mobile app has been developed as a part of my dissertation project for MSc. in Software Engineering.
 
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+Developer's Details:
+	Name	: Diptesh Shrestha 
+	Email 	: diptesh.shrestha@gmail.com
