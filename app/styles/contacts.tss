@@ -1,0 +1,8 @@
+"#contactDetails": {
+	top: 2,
+	color: "#224455",
+	font: {
+		fontSize: "13dp",
+		fontWeight: "normal"
+	}
+}

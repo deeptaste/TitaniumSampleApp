@@ -1,0 +1,48 @@
+".buttonView": {
+	top: 0,
+	left: 0,
+	height: "80dp"
+}
+
+".audioLabel": {
+	top: 0,
+	bottom: 0,
+	left: "5dp",
+	width: "100%",
+	height: "30dp",
+	color: "#224455",
+	font: {
+		fontFamily: "Tahoma",
+		fontSize: "13dp",
+		fontWeight: "bold"
+	}
+}
+
+".audioButton": {
+	top: "40dp",
+	bottom: 0,
+	width: "100dp",
+	height: "30dp",
+	color: "#fff",
+	font: {
+		fontFamily: "Tahoma",
+		fontSize: "10dp",
+		fontWeight: "bold"
+	},
+	borderWidth: 1,
+	borderColor: "#394453",
+	borderRadius: 7,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#5B6A7E", offset: 0.0 },
+			{ color: "#526072", offset: 1.0 }
+		]
+	}
+}
+
+"#buttonPlay": {
+	visible: false
+}

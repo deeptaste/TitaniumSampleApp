@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container" id="geolocation" title="Geolocatioin" onFocus="loadData">
+		<!-- header -->
+		<View class="header">
+		 	<Button class="buttonBack" onClick="goBack">Back</Button>
+		 	<Label class="pageTitle">Geolocation</Label>
+		</View>
+		<!-- content -->
+		<View class="contentWrapper">
+			<TableView id="geoDetails">
+		        <TableViewRow id="currentlocation"/>
+	        </TableView>
+			<View id="mapView" ns="Alloy.Globals.Map">
+				<Annotation id="dipsHome" myid="1" />
+	        </View>
+		</View>
+		<!-- footer -->
+		<View class="footer">
+		 	<Label id="copyright">Copyright, 2014. Diptesh Shrestha</Label>
+		</View>
+	</Window>
+</Alloy>

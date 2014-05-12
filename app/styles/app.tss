@@ -1,0 +1,84 @@
+".container": {
+	backgroundColor: "#FCFCFC",
+    textAlign: "center",
+    navBarHidden: true
+}
+
+".header": {
+	top: Alloy.Globals.top,
+	height: "40dp",
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#223344", offset: 0.0 },
+			{ color: "#446699", offset: 1.0 }
+		]
+	}
+}
+
+".buttonBack": {
+	top: "5dp",
+	left: "5dp",
+	width: "50dp",
+	height: "30dp",
+	color: "#fff",
+	font: {
+		fontFamily: "Tahoma",
+		fontSize: "10dp",
+		fontWeight: "bold"
+	}
+}
+
+".pageTitle": {
+	color: "#fff",
+	font: {
+		fontFamily: "Tahoma",
+		fontSize: "15dp",
+		fontWeight: "bold"
+	}
+}
+
+".contentWrapper": {
+	top: Alloy.Globals.tableTop,
+	bottom: "60dp",
+	left: "20dp",
+	right: "20dp",
+	borderWidth: 1,
+	borderColor: "#C9C9C9",
+	borderRadius: 7,
+	backgroundColor: "#F4F4F4"
+}
+
+".innerWrapper": {
+	top: "10dp",
+	bottom: "10dp",
+	left: "10dp",
+	right: "10dp"
+}
+
+".footer": {
+	bottom: 0,
+	height: "25dp",
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#BCC5CF", offset: 0.0 },
+			{ color: "#8394A7", offset: 1.0 }
+		]
+	}
+}
+
+"#copyright": {
+	color: "#002451",
+	font: {
+		fontFamily: "Tahoma",
+		fontSize: "11dp",
+		fontWeight: "bold"
+	}
+}

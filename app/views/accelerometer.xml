@@ -1,0 +1,29 @@
+<Alloy>
+	<Window class="container" id="accelerometer" title="Accelerometer">
+		<!-- header -->
+		<View class="header">
+		 	<Button class="buttonBack" onClick="goBack">Back</Button>
+		 	<Label class="pageTitle">Accelerometer</Label>
+		</View>
+		<!-- content -->
+		<View class="contentWrapper">
+			<View class="innerWrapper">
+				<View class="buttonView">
+					<Label class="accLabel">Device Orientation</Label>
+				 	<Button id="buttonStart" onClick="startAccelerometer" left="5dp" class="accButton">Start Watching</Button>
+				 	<Button id="buttonStop" onClick="stopAccelerometer" left="120dp" class="accButton">Stop Watching</Button>
+				</View>
+				<TableView class="accDetailsWrapper">
+					<TableViewRow class="accDetail" id="xVal" title="X-val : "></TableViewRow>
+					<TableViewRow class="accDetail" id="yVal" title="Y-val : "></TableViewRow>
+					<TableViewRow class="accDetail" id="zVal" title="Z-val : "></TableViewRow>
+					<TableViewRow class="accDetail" id="tsVal" title="Time-stamp : "></TableViewRow>
+				</TableView>
+			</View>
+		</View>
+		<!-- footer -->
+		<View class="footer">
+		 	<Label id="copyright">Copyright, 2014. Diptesh Shrestha</Label>
+		</View>
+	</Window>
+</Alloy>

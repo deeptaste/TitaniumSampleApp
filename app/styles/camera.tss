@@ -1,0 +1,40 @@
+".buttonView": {
+	top: "10dp",
+	left: "10dp",
+	height: "40dp"
+}
+
+".cameraButton": {
+	top: 0,
+	bottom: 0,
+	width: "110dp",
+	height: "28dp",
+	color: "#fff",
+	font: {
+		fontFamily: "Tahoma",
+		fontSize: "10dp",
+		fontWeight: "bold"
+	},
+	borderWidth: 1,
+	borderColor: "#394453",
+	borderRadius: 7,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#5B6A7E", offset: 0.0 },
+			{ color: "#526072", offset: 1.0 }
+		]
+	}
+}
+
+"#photoPreview": {
+	top: "60dp",
+	height: "60%",
+	width: "100%",
+	borderWidth: 1,
+	borderColor: "#394453",
+	borderRadius: 7,
+	visible: false
+}

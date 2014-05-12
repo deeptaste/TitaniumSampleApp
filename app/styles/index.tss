@@ -1,0 +1,70 @@
+".container": {
+    textAlign: "center",
+    exitOnClose: true
+}
+
+".header": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#viewInfo": {
+	top: 0,
+	bottom: 0,
+	right: 0,
+	width: "40dp"
+}
+
+"#imgInfo": {
+	height: "20dp",
+	width: "20dp",
+	color: "#FFFFFF",
+	backgroundColor: "transparent",
+	image: "/info.png",
+	touchEnabled: false
+}
+
+".innerWrapper": {
+	top: "2dp",
+	bottom: "2dp",
+	left: "2dp",
+	right: "2dp",
+	borderRadius: 7,
+}
+
+".labelMenuTitle": {
+	height: "35dp",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	textAlign: "left",
+	color: "#337799",
+	font: {
+		fontSize: "13dp",
+		fontWeight: "bold"
+	},
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#EFEFEF", offset: 0.0 },
+			{ color: "#C3C3C3", offset: 1.0 }
+		]
+	}
+}
+
+".menuItem": {
+	height: "30dp",
+	color: "#224455",
+	font: {
+		fontSize: "13dp",
+		fontWeight: "normal"
+	},
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#FDFDFD", offset: 0.0 },
+			{ color: "#FFFFFF", offset: 1.0 }
+		]
+	}
+}

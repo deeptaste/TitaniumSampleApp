@@ -1,0 +1,26 @@
+<Alloy>
+	<Window class="container" id="deviceInfo" title="Device Info" onOpen="showDeviceInfo">
+		<!-- header -->
+		<View class="header">
+		 	<Button class="buttonBack" onClick="goBack">Back</Button>
+		 	<Label class="pageTitle">Device Info</Label>
+		</View>
+		<!-- content -->
+		<View class="contentWrapper">
+			<TableView class="innerWrapper">
+				<TableViewRow id="deviceName" class="deviceDetails"></TableViewRow>
+				<TableViewRow id="deviceModel" class="deviceDetails"></TableViewRow>
+				<TableViewRow id="deviceUUID" class="deviceDetails"></TableViewRow>	
+				<TableViewRow id="devicePlatform" class="deviceDetails"></TableViewRow>
+				<TableViewRow id="devicePlatformVersion" class="deviceDetails"></TableViewRow>
+				<TableViewRow id="deviceDefaultLanguage" class="deviceDetails"></TableViewRow>
+				<TableViewRow id="deviceAvailableMemory" class="deviceDetails"></TableViewRow>
+				<TableViewRow id="deviceNetworkConnection" class="deviceDetails"></TableViewRow>
+			</TableView>
+		</View>
+		<!-- footer -->
+		<View class="footer">
+		 	<Label id="copyright">Copyright, 2014. Diptesh Shrestha</Label>
+		</View>
+	</Window>
+</Alloy>

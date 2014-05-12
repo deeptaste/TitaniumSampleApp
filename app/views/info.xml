@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container" id="info" title="About the App" onFocus="showDeviceInfo">
+		<!-- header -->
+		<View class="header">
+			<Button class="buttonBack" onClick="goBack">Back</Button>
+		 	<Label class="pageTitle">About the App</Label>
+		</View>
+		<!-- content -->
+		<View class="contentWrapper">
+			<View class="innerWrapper">
+				<Label id="appDetails" class="appDetails"/>
+			</View>
+		</View>
+		<!-- footer -->
+		<View class="footer">
+		 	<Label id="copyright">Copyright, 2014. Diptesh Shrestha</Label>
+		</View>
+	</Window>
+</Alloy>

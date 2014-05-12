@@ -1,0 +1,23 @@
+<Alloy>
+	<Window class="container" id="camera" title="Camera">
+		<!-- header -->
+		<View class="header">
+		 	<Button class="buttonBack" onClick="goBack">Back</Button>
+		 	<Label class="pageTitle">Camera</Label>
+		</View>
+		<!-- content -->
+		<View class="contentWrapper" id="mainView">
+			<View class="innerWrapper">
+				<View class="buttonView">
+				 	<Button id="buttonCamera" onClick="showCamera" left="5dp" class="cameraButton">Capture Photo</Button>
+				 	<Button id="buttonGallery" onClick="openGallery" left="135dp" class="cameraButton">Photo Gallery</Button>
+				</View>
+				<ImageView id="photoPreview"/>	
+			</View>
+		</View>
+		<!-- footer -->
+		<View class="footer">
+		 	<Label id="copyright">Copyright, 2014. Diptesh Shrestha</Label>
+		</View>
+	</Window>
+</Alloy>

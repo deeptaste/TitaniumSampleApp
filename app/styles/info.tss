@@ -1,0 +1,8 @@
+".appDetails": {
+	top: "2dp",
+	color: "#224455",
+	font: {
+		fontSize: "13dp",
+		fontWeight: "normal"
+	}
+}

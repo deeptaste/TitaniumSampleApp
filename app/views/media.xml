@@ -1,0 +1,24 @@
+<Alloy>
+	<Window class="container" id="media" title="Media">
+		<!-- header -->
+		<View class="header">
+		 	<Button class="buttonBack" onClick="goBack">Back</Button>
+		 	<Label class="pageTitle">Media</Label>
+		</View>
+		<!-- content -->
+		<View class="contentWrapper">
+			<View class="innerWrapper">
+				<ImageView id="imgInfo"/>
+				<View class="buttonView">
+					<Label id="recInfo" class="audioLabel"/>
+				 	<Button id="buttonRecord" onClick="recordAudio" class="audioButton" left="0dp" title="Start Recording"/>
+				 	<Button id="buttonPlay" onClick="playAudio" class="audioButton" left="120dp" title="Playback Audio"/>
+				</View>
+			</View>
+		</View>
+		<!-- footer -->
+		<View class="footer">
+		 	<Label id="copyright">Copyright, 2014. Diptesh Shrestha</Label>
+		</View>
+	</Window>
+</Alloy>

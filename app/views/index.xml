@@ -1,0 +1,44 @@
+<Alloy>
+	<!-- Main Window -->
+	<Window id="index" title="Main Window" class="container">
+		<!-- header -->
+		<View class="header">
+		 	<Label class="pageTitle">My Demo App</Label>
+			<View id="viewInfo" onClick="showInfo" newWindowName="info">
+				<ImageView id="imgInfo"/>
+			</View>
+		</View>
+	
+		<!-- content -->
+		<View class="contentWrapper">
+			<TableView class="innerWrapper" id="menuList">
+				<TableViewSection>
+					<HeaderView>
+						<Label class="labelMenuTitle">\t Information</Label>
+					</HeaderView>
+					<TableViewRow title="\t Device Info" onClick="showView" newWindowName="deviceInfo" class="menuItem"></TableViewRow>	
+				</TableViewSection>
+				<TableViewSection>
+					<HeaderView>
+						<Label class="labelMenuTitle">\t Hardware</Label>
+					</HeaderView>
+					<TableViewRow title="\t Accelerometer" onClick="showView" newWindowName="accelerometer" class="menuItem"></TableViewRow>	
+					<TableViewRow title="\t Camera" onClick="showView" newWindowName="camera" class="menuItem"></TableViewRow>
+					<TableViewRow title="\t Geolocation" onClick="showView" newWindowName="geolocation" class="menuItem"></TableViewRow>
+				</TableViewSection>
+				<TableViewSection>
+					<HeaderView>
+						<Label class="labelMenuTitle">\t System</Label>
+					</HeaderView>
+					<TableViewRow title="\t Contacts" onClick="showView" newWindowName="contacts" class="menuItem"></TableViewRow>
+					<TableViewRow title="\t Media" onClick="showView" newWindowName="media" class="menuItem"></TableViewRow>	
+				</TableViewSection>
+			</TableView>
+		</View>
+		
+		<!-- footer -->
+		<View class="footer">
+		 	<Label id="copyright">Copyright, 2014. Diptesh Shrestha</Label>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,38 @@
+"#geoDetails": {
+	bottom: "10dp",
+	left: "10dp",
+	right: "10dp"
+}
+
+"#currentlocation": {
+	top: "5dp",
+	height: "30dp", 
+  	color: "#224455",
+	font: {
+		fontSize: "13dp",
+		fontWeight: "normal"
+	}
+}
+
+"#mapView": {
+    top: "40dp",
+    left: "10dp",
+    right: "10dp",
+    height: "90%",
+    userLocation: true,
+    animate: true,
+    regionFit: true,
+    visible: true,
+    mapType: Alloy.Globals.Map.NORMAL_TYPE,
+    borderWidth: 1,
+    borderColor: "#C7C7C7",
+    borderRadius: 5,
+}
+
+"#dipsHome": {
+	latitude: 51.50944861,
+    longitude: -0.3807556629,
+    title: "Diptesh Shrestha's Residence",
+    subtitle: "UB1 1RP, Southall, London, UK",
+    pincolor: Alloy.Globals.Map.ANNOTATION_RED
+}
