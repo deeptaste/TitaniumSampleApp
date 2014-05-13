@@ -146,7 +146,7 @@ function Controller() {
         top: 0,
         bottom: 0,
         left: "5dp",
-        width: "125dp",
+        width: "100%",
         height: "30dp",
         color: "#224455",
         font: {

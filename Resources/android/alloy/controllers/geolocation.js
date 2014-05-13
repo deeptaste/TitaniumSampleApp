@@ -195,6 +195,7 @@ function Controller() {
     $.__views.__alloyId34.add($.__views.copyright);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    (null == Alloy.Globals.Map || void 0 == Alloy.Globals.Map) && alert("Map module not loaded.");
     __defers["$.__views.geolocation!focus!loadData"] && $.__views.geolocation.addEventListener("focus", loadData);
     __defers["$.__views.__alloyId30!click!goBack"] && $.__views.__alloyId30.addEventListener("click", goBack);
     _.extend($, exports);

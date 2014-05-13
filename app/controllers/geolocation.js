@@ -1,5 +1,9 @@
 //var args = arguments[0] || {};
 
+if(Alloy.Globals.Map == null || Alloy.Globals.Map == undefined) {
+	alert("Map module not loaded.");
+}
+
 function loadData() {
 	$.mapView.region = {
 		latitude: 51.50944861,
